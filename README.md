@@ -1,7 +1,7 @@
 # PhewPrep
 
 ## Description 
-**Introducing Phew's meal planner – the ultimate tool for food enthusiasts and busy individuals who want to take the hassle out of meal planning and prep! This project features three key functions that make meal prepping easy, efficient, and enjoyable.**
+Introducing Phew's meal planner – the ultimate tool for food enthusiasts and busy individuals who want to take the hassle out of meal planning and prep! This project features three key functions that make meal prepping easy, efficient, and enjoyable.
 
 **1. This meal planner acts as your personal recipe library.** 
 You can easily store and add your favorite recipes, then sort them by various categories, such as favorites, name, category, and ingredient amount. This makes finding and accessing your favorite recipes a breeze.
@@ -52,7 +52,7 @@ Phew's meal planner has three key features that are designed to make meal preppi
 *Overall, Phew's meal planner is a comprehensive tool for simplifying the meal planning and prepping process. With its recipe library, meal planning interface, and shopping list generator, you can enjoy stress-free meal prep and save time and energy in the kitchen.*
 
 ## Contributing
-I welcome contributions from the community to improve my meal planner project. If you'd like to contribute, please follow these steps:
+**I welcome contributions from the community to improve my meal planner project. If you'd like to contribute, please follow these steps:**
 
 1. Fork the repository on GitHub.
 2. Create a new branch for your changes.
@@ -62,22 +62,22 @@ I welcome contributions from the community to improve my meal planner project. I
 6. Submit a pull request to the main repository.
 
 We will review your pull request and provide feedback as necessary. To ensure a timely review, please make sure that your pull request meets the following criteria:
-*It includes a clear and detailed description of the changes you've made.
-*It includes tests to ensure that your changes work as expected.
-*It follows our code style guidelines.
-*It does not introduce any new bugs or issues.
++ It includes a clear and detailed description of the changes you've made.
++ It includes tests to ensure that your changes work as expected.
++ It follows our code style guidelines.
++ It does not introduce any new bugs or issues.
 
-By contributing to Phew's meal planner project, you'll help make it better for everyone in the community. Thank you for your support!
+*By contributing to Phew's meal planner project, you'll help make it better for everyone in the community. Thank you for your support!*
 
 ## License
-This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
+**This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.**
 
 The GNU General Public License (GPL) is a copyleft open source license that allows you to use, copy, modify, and distribute the software, as well as to distribute modified versions of the software. However, if you distribute modified versions of the software, you must also make the source code of your modified version available under the GPL. You can read the full text of the license in the LICENSE file.
 
-In short, you're free to use and modify this meal planner project, but any modifications or derivatives must also be licensed under the GPL.
+*In short, you're free to use and modify this meal planner project, but any modifications or derivatives must also be licensed under the GPL.*
 
 ## Contact
-If you have any questions, comments, or feedback about Phew's meal planner project, please feel free to contact us via GitHub: @Catfish1210
+If you have any questions, comments, or feedback about Phew's meal planner project, please feel free to contact me via GitHub: @Catfish1210
 
 You can also submit issues and bug reports on our GitHub repository[PhewPrep].
 I am excited to hear from you and look forward to your contributions to the project!
