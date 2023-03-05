@@ -429,3 +429,73 @@ footer ul li a:hover {
     background-color: rgba(94, 234, 255, 0.568);
     border-radius: 10%;
 }
+
+/* Recipies */
+.recipie-template {
+    background: rgba(228, 227, 227, 0.867);
+    border-radius: 5px;
+    padding: 20px;
+    width: fit-content;
+    max-height: 100%;
+    position: relative;
+    overflow: hidden;
+    top: 10%;
+    left: 3%;
+    display: flex;
+    justify-content: left;
+}
+
+.recipie-name {
+    color:rgba(0, 0, 0, 0.813);
+    font-size: large;
+
+}
+
+.wall-clock {
+    max-width: 36px;
+    color:rgba(0, 0, 0, 0.813);
+    margin-left: 8px;
+}
+
+.recipie-image {
+    max-width: 20rem;
+    position: relative;
+}
+.calories {
+    max-width: 35px;
+    color:rgba(0, 0, 0, 0.813);
+    margin-left: 8px;
+}
+
+.ingredients {
+    color:#000;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: none;
+    margin-left: 25px;
+    display: static;
+    white-space: nowrap;
+}
+.ingredient-amount {
+    color:#000;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: none;
+}
+
+
+.ingredient-name {
+    color:#000;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: none;
+}
+.instructions {
+    color:#000;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: none;
+    margin-left: 25px;
+    display: static;
+    max-width: 250px;
+}
+.instructions a {
+    padding: 0;
+    margin: 0;
+}
