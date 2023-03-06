@@ -114,15 +114,19 @@ const recipies = {
 
 function addCondiment() {
     var card = document.createElement("condiment-section");
+  
     var closeButton = document.createElement("button");
     closeButton.innerText = "X";
+    closeButton.addEventListener("click", function() {
+      card.remove();
+    });
     card.appendChild(closeButton);
-
+  
     var condimentInput = document.createElement("input");
     condimentInput.type = "text";
-    condimentInput.placeholder = "Condiment";
+    condimentInput.placeholder = "Ingredient";
     card.appendChild(condimentInput);
-    
+  
     var amountInput = document.createElement("input");
     amountInput.type = "text";
     amountInput.placeholder = "Amount";
@@ -132,8 +136,7 @@ function addCondiment() {
     unitInput.type = "text";
     unitInput.placeholder = "unit(s)";
     card.appendChild(unitInput);
-
+  
     var element = document.getElementById("here");
     element.appendChild(card);
   }
-
