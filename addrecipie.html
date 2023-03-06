@@ -14,8 +14,9 @@
     <div id="overlay"></div>
     <div id="mobile-menu" class="mobile-main-menu">
         <ul>
+            <li><a href="#">Home</a></li>
             <li><a href="#">Recipies</a></li>
-            <li><a href="addrecipie.html">Add Recipie</a></li>
+            <li><a class="mod-1" href="#">Add Recipie</a></li>
             <li><a href="#">Meal Planner</a></li>
             <li><a href="#">Register</a></li>
             <li><a href="#">Login</a></li>
@@ -52,7 +53,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="recipies.html">Recipies</a></li>
-                <li><a href="addrecipie.html">Add Recipie</a></li>
+                <li><a class="mod-1" href="addrecipie.html">Add Recipie</a></li>
                 <li><a href="#">Meal Planner</a></li>
                 <li><a href="#">Register</a></li>
                 <li><a href="#">Login</a></li>
@@ -66,25 +67,51 @@
         <span class="hamburger-bottom"></span>
     </button>
 
-    <!-- Section A -->
-    <section class="section-a">
-            <!-- L-Arrow -->
+    <!-- Section B -->
+    <section class="section-b">
+
+        <div class="add-recipie-template">
+            <ul>
+                <li>
+
+                    <from><input type="text" placeholder="Recipie name"></from>
+                </li>
+
+                <li>
+                    <form><input type="text" placeholder="Calories" ></form>
+                </li>
+                <li>
+                    <form><input type="text" placeholder="Time to make" ></form>
+                </li>
+                <button>Add Image file</button>
+                <li>
+                    <form><textarea class="instructions-form" placeholder="Instructions"></textarea></form>
+                </li>
+            </ul>
+            <br>
+            
+            <div class="condiments-section" id="here">
+                <button onclick="addCondiment()" class="add-condiment-button">Add Condiment</button>
+                <h2>Condiments:</h2>
+                <div class="condiment-boxes-wrapper" id="here">
+                    <button>X</button>
+                    <form><input type="text" placeholder="Condiment"></form>
+                    <form><input type="text" placeholder="Amount"></form>
+                    <form><input type="text" placeholder="unit(s)"></form>
+                </div>
+            </div>
+
+        </div>
+<!-- 
         <div class="L-arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/> </svg> 
         </div>
-            <!-- R-Arrow -->
+           
         <div class="R-arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/> </svg>
         </div>
-
-        <div class="section-inner">
-            <h5>Completely free!</h5>
-            <a href="#" class="btn">
-                
-                <div class="hover"></div>
-                <span>Register</span>
-            </a>
-        </div>
+        
+        
 <!--
         <div class="scroll-arrow">
             <svg width="30px" height="20px">

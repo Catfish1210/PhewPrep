@@ -499,3 +499,52 @@ footer ul li a:hover {
     padding: 0;
     margin: 0;
 }
+
+.add-recipie-template {
+    background: rgba(228, 227, 227, 0.867);
+    border-radius: 5px;
+    padding: 24px;
+    width: 800px;
+    max-height: 100%;
+    position: relative;
+    overflow: hidden;
+    top: 10%;
+    left: 3%;
+    display: flex;
+
+    color :#000;
+}
+
+.add-recipie-template ul li a {
+    color:rgba(0, 0, 0, 0.813);
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: none;
+
+}
+.name-form {
+    padding: 0px 38px;
+}
+
+.description-form {
+    height: 50px;
+    width: 300px;
+}
+.instructions-form {
+    height: 150px;
+    width: 300px;
+}
+
+.condiment-boxes-wrapper {
+    display: flex;
+    justify-content: left;
+    max-width: 600px;
+}
+
+.condiments-section {
+    display: block;
+}
+
+.add-condiment-button {
+    height: 30px;
+    width: 100px;
+}
